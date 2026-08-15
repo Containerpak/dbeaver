@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=DBeaver Community
+Comment=Work with SQL databases through a universal desktop client.
+Exec=dbeaver
+Icon=dbeaver
+Terminal=false
+Categories=Development;Database;IDE;

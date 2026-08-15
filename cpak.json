@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
+  "manifest_version": "2.0",
+  "name": "DBeaver Community",
+  "description": "Work with SQL databases through a universal desktop client.",
+  "version": "26.1.4",
+  "image": "ghcr.io/containerpak/dbeaver:main",
+  "binaries": [
+    "/usr/bin/dbeaver"
+  ],
+  "desktop_entries": [
+    "/usr/share/applications/dbeaver.desktop"
+  ],
+  "dependencies": [],
+  "addons": [],
+  "idle_time": 0,
+  "override": {
+    "socketX11": true,
+    "socketWayland": true,
+    "socketPulseAudio": false,
+    "socketSessionBus": true,
+    "socketSystemBus": false,
+    "socketSshAgent": true,
+    "socketCups": false,
+    "socketGpgAgent": false,
+    "socketAtSpiBus": true,
+    "socketBluetooth": false,
+    "deviceDri": true,
+    "deviceKvm": false,
+    "deviceShm": true,
+    "deviceAlsa": false,
+    "deviceVideo": false,
+    "deviceFuse": false,
+    "deviceTun": false,
+    "deviceUsb": false,
+    "deviceInput": false,
+    "deviceTTY": false,
+    "deviceAll": false,
+    "notification": false,
+    "openURI": true,
+    "hostApplications": false,
+    "hostActions": [],
+    "filesystem": [
+      {
+        "path": "xdg-documents",
+        "access": "read-write"
+      },
+      {
+        "path": "xdg-download",
+        "access": "read-write"
+      }
+    ],
+    "env": [],
+    "network": true,
+    "process": false,
+    "userNamespaces": false,
+    "memoryMaxMB": 0,
+    "cpuQuota": 0,
+    "pidsMax": 0,
+    "asRoot": false,
+    "allowedHostCommands": []
+  }
+}
