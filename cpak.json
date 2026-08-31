@@ -3,7 +3,7 @@
   "manifest_version": "3.0",
   "name": "DBeaver Community",
   "description": "Work with SQL databases through a universal desktop client.",
-  "version": "26.1.5",
+  "version": "26.2.0",
   "image": "ghcr.io/containerpak/dbeaver@sha256:fca9d861e6cf622f3a588c757f583a2eaf4cf5586c9eb9dc27e9eaab459239b7",
   "binaries": [
     "/usr/bin/dbeaver"

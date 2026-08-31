@@ -1,6 +1,6 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:0e8aa2008814c51c1d863f8fab9bce0343f5c1dfe0ef4eb86bb0e13bba4c1ef2 https://github.com/dbeaver/dbeaver/releases/download/26.1.5/dbeaver-ce-26.1.5-linux-x86_64.tar.gz /tmp/app.tar.gz
+ADD --checksum=sha256:f504e70a74763aa02e0b63d6842b85ca64526f682be457b3f30e330cc10748ed https://github.com/dbeaver/dbeaver/releases/download/26.2.0/dbeaver-ce-26.2.0-linux-x86_64.tar.gz /tmp/app.tar.gz
 
 RUN mkdir -p /out && \
     tar -xzf /tmp/app.tar.gz -C /out
