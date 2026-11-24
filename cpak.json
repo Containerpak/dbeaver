@@ -4,7 +4,7 @@
   "name": "DBeaver Community",
   "description": "Work with SQL databases through a universal desktop client.",
   "version": "26.2.0",
-  "image": "ghcr.io/containerpak/dbeaver@sha256:b13b0c0b01d1e89777c2792e15c4bb8e1aefcf35ee9159e148bdecd87c94c194",
+  "image": "ghcr.io/containerpak/dbeaver@sha256:75afc8034af9bb44f696276cdb7e8619d239d41fccd24b6a434a413f79be7b0c",
   "binaries": [
     "/usr/bin/dbeaver"
   ],
